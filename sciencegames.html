@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <script src='index.js'></script>
+  </head>
+  <body>
+    <div id="header">
+      <b onclick='window.location.href="./index.html"' id="back">←</b>
+    </div>
+    <div class="section">
+      <div class="content" style="height: 100vh">
+          <table width="100%" style="height: 100vh">
+              <tr>
+                  <td width="50%" style="background: white;">
+                    <img src="img/sciencedark.png" width="50%"></img>
+                  </td>
+                  <td width="50%" style="background: #0d0d0d;">
+                    <img src="img/sciencelight.png" width="50%"></img>
+                  </td>
+              </tr>
+          </table>
+      </div>
+    </div>
+    <div class="section" style="background: #f5f5f5">
+      <div class="content">
+        <img src="img/slide-08.png" width="80%" height="auto">
+      </div>
+    </div>
+    <div class="section">
+        <div class="content">
+            <img src="img/slide-09.png" width="90%"></img>
+        </div>
+    </div>
+    <div class="section">
+        <div class="content">
+            <img src="img/slide-10.png" width="100%"></img>
+        </div>
+    </div>
+    <div class="section">
+        <div class="content" style="padding-top: 100px; padding-bottom: 100px;">
+            <img src="img/scisym-01.png" width="70%"></img>
+        </div>
+    </div>
+  </body>
+</html>
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+#back {
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+  font-size: 30px;
+  margin-left: 10px;
+}
+#back:hover {
+  color: #092dff;
+  transition: 0.2s;
+}
+#header {
+  color: white;
+  background: black;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+.section {
+  display: table;
+}
+
+.content {
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+</style>
