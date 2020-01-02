@@ -1,0 +1,386 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" integrity="sha256-jyHh7xruaFLUoKPPnsSwEvYrBnzJczScRNnuh4Ysblc=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body align="center">
+        <div id="background" align="center">
+            <table style="width: 100%; height: 100%; border-collapse: collapse;">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div style="max-width: 1100px; position: relative; margin: auto;" align="center">
+            <div class="rellax" data-rellax-speed="2">
+                <div id="bg-tri-1"></div>
+            </div>
+            <div id="content">
+                <div id="menu" align="right" class="rellax" data-rellax-speed="-2">
+                    <table>
+                        <tr>
+                            <td><a onclick="home()">Home</a></td>
+                            <td><a onclick="work()">Work</a></td>
+                            <td><a onclick="contact()">Contact</a></td>
+                            <td style="padding-right: 20px;"><a>GitHub</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wrapper">
+                    <div id="one">
+                        <img src="https://static.tumblr.com/4qlzhzr/BURq3fhka/portrait_tb.png" width="100%" height="auto" style="max-width: 300px" class="rellax" data-rellax-speed="1">
+                    </div>
+                    <div id="two">
+                        <div style="font-weight: 200; font-size: 80px;">
+                            Hi.
+                        </div>
+                        <div style="font-size: 60px; font-weight: 200;">
+                            I'm <span style="font-weight: 600;">Michael Hollingshead</span>,
+                        </div>
+                        <div style="font-size: 35px; color: #092dff">
+                            a freelance <b>web developer</b> and <b>graphic designer</b> located in Montreal, Quebec, Canada.
+                        </div>
+                    </div>
+                </div>
+                <div class="rellax" data-rellax-speed="-2" id="work" align="left">
+                    <div class="rellax" data-rellax-speed="3">
+                        <div id="bg-tri-2"></div>
+                    </div>
+                    <div class="rellax" data-rellax-speed="3">
+                        <div id="bg-tri-3"></div>
+                    </div>
+                    <div class="rellax" data-rellax-speed="7">
+                        <div id="bg-tri-4"></div>
+                    </div>
+                    <div class="rellax" data-rellax-speed="4">
+                        <div id="bg-tri-5"></div>
+                    </div>
+                    <div class="rellax" data-rellax-speed="6">
+                        <div id="bg-tri-6"></div>
+                    </div>
+                    <div style="max-width: 440px; font-weight: 200; font-size: 50px;">
+                        Here's what I've been working on...
+                    </div>
+                    <div id="work_area">
+                        <div style="font-weight: 600; font-size: 50px; margin-bottom: 30px;">
+                            Graphics <span style="font-weight: 300; font-size: 20px; color: #adadad;">(click to view full project)</span>
+                        </div>
+                        <div class="main-carousel" data-flickity='{"cellAlign": "left", "contain": true, "pageDots": false, "freeScroll": true, "wrapAround": true}'>
+  <div class="carousel-cell" style="" id="carnival" onclick="window.location.href = 'carnival.html'">
+      <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">Winter Carnival</b> / Branding</div>
+  </div>
+  <div class="carousel-cell" style="" id="hype">
+      <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">Hype Week</b> / Branding</div>
+  </div>
+  <div class="carousel-cell" style="" id="science">
+      <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">Science Games</b> / Branding</div>
+  </div>
+  <div class="carousel-cell" style="" id="misa">
+      <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">MISA</b> / Logo Redesign</div>
+  </div>
+                        </div>
+                        <div style="font-weight: 600; font-size: 50px; width: 60px; overflow: visible; border-top: 5px solid #05219f; margin-bottom: 30px; margin-top: 90px;">
+                            Web
+                        </div>
+                        <div class="main-carousel" data-flickity='{"cellAlign": "left", "contain": true, "pageDots": false, "freeScroll": true, "wrapAround": true}'>
+  <div class="carousel-cell" style="background:#00153f;"></div>
+  <div class="carousel-cell" style="background:#05219f;"></div>
+  <div class="carousel-cell" style="background:#00153f;"></div>
+  <div class="carousel-cell" style="background:#092dff;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Let's make something.-->
+        </div>
+    </body>
+</html>
+<style>
+    #hype {
+        background-image: url("https://static.tumblr.com/4qlzhzr/qo9q3fqs2/screen_shot_2020-01-01_at_10.52.06_am.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #hype:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #carnival {
+        background-image: url("https://static.tumblr.com/4qlzhzr/gXnq3frwa/carnivalsnip-01.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #carnival:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #science {
+        background-image: url("https://static.tumblr.com/4qlzhzr/VBQq3g2hz/s_iqs-01.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #science:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #misa {
+        background-image: url("https://static.tumblr.com/4qlzhzr/FpZq3g2td/screen_shot_2020-01-01_at_3.12.12_pm.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #misa:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    .main-carousel {
+        width: calc(100% - 40px);
+    }
+    .carousel-cell {
+        width: 400px; /* half-width */
+        height: 400px;
+        position: relative;
+        cursor: pointer;
+        }
+    body {
+        background: black;
+        overflow-x: hidden;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        color: white;
+    }
+    #content {
+        max-width: 1100px;
+        margin: auto;
+        position: relative;
+    }
+    #menu {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #menu td {
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    #menu a {
+        cursor: pointer;
+        color: white;
+        transition: 0.2s;
+    }
+    #menu a:hover {
+        color: #092dff;
+        transition: 0.2s;
+    }
+    #background {
+        position: fixed;
+        top: 0;
+        max-width: 1100px;
+        height: 100vh;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+    }
+    #background td {
+        border-left: solid 1px #121212;
+        border-right: solid 1px #121212;
+    }
+    #background table {
+        margin: auto;
+    }
+    #bg-tri-1 {
+        width: 450px;
+        height: 450px;
+        border-radius: 15px;
+        background: #00153f;
+        position: absolute;
+        top: -175px;
+        right: calc((1100px - 100vw)/2);
+        right: 0;
+        z-index: 2;
+        transform: rotate(45deg);
+    }
+    #bg-tri-2 {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        background: #00153f;
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        transform: rotate(45deg);
+        left: -95px;
+    }
+    #bg-tri-3 {
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
+        background: #00153f;
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        transform: rotate(45deg);
+        left: calc(60% - 80px);
+        top: 200px;
+    }
+    #bg-tri-4 {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        background: #05219f;
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        transform: rotate(45deg);
+        left: calc(60% - 50px);
+        top: 120px;
+    }
+    #bg-tri-5 {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        background: #092dff;
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        transform: rotate(45deg);
+        left: calc(40% - 50px);
+        top: 150px;
+    }
+    #bg-tri-6 {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background: #092dff;
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        transform: rotate(45deg);
+        left: calc(100% - 70px);
+        top: -20px;
+    }
+    #work {
+        padding-top: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        width: 100%;
+    }
+    #work_area {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .wrapper {
+      overflow: hidden;
+      position: relative;
+      z-index: 1000;
+    }
+
+    .wrapper div {
+    }
+    #one {
+      float:left;
+      margin-right:20px;
+      width:300px;
+      padding: 20px;
+    }
+    #two {
+      overflow:hidden;
+      margin:10px;
+      min-height:170px;
+      color: white;
+      text-align: left;
+      padding-top: 50px;
+    }
+
+    @media only screen and (max-width: 800px) {
+       #one {
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+      }
+      #two {
+          padding-top: 0px;
+      }
+      #place {
+          margin-top: 50px;
+      }
+    }
+    @media (min-width: 1100px) and (max-width: 2000px) {
+       #place {
+           font-size: 121px;
+       }
+       #temp {
+           font-size: 220px;
+       }
+    }
+</style>
+<script>
+    var rellax = new Rellax('.rellax');
+
+    function home() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+    function work() {
+        document.getElementById("work_area").scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+</script>
