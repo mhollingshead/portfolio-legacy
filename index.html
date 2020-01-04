@@ -89,7 +89,9 @@
                             Web
                         </div>
                         <div class="main-carousel" data-flickity='{"cellAlign": "left", "contain": true, "pageDots": false, "freeScroll": true, "wrapAround": true}'>
-  <div class="carousel-cell" style="background:#00153f;"></div>
+  <div class="carousel-cell" id="mus" onclick="window.location.href = 'mus.html'">
+                            <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">MUS</b> / Site Redesign</div>
+  </div></div>
   <div class="carousel-cell" style="background:#05219f;"></div>
   <div class="carousel-cell" style="background:#00153f;"></div>
   <div class="carousel-cell" style="background:#092dff;"></div>
@@ -181,6 +183,28 @@ transition: 0.2s filter linear, 0.2s -webkit-filter linear;
 transition: 0.2s filter linear, 0.2s -webkit-filter linear;
     }
     #misa:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #mus {
+        background-image: url("img/musclip.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #mus:hover {
         -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
   -webkit-transition: 0.2s -webkit-filter linear;
