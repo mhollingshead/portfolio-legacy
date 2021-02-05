@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Michael Hollingshead</title>
     </head>
     <body align="center">
         <div id="background" align="center">
@@ -68,6 +69,26 @@
                         Here's what I've been working on...
                     </div>
                     <div id="work_area">
+                      <div style="font-weight: 600; font-size: 50px; width: 60px; overflow: visible; border-top: 5px solid #05219f; margin-bottom: 30px; margin-top: 90px;">
+                          Web
+                      </div>
+                      <div class="main-carousel" data-flickity='{"cellAlign": "left", "contain": true, "pageDots": false, "freeScroll": true, "wrapAround": true}' style="margin-bottom: 50px;">
+<div class="carousel-cell" id="mus" onclick="window.location.href = 'mus.html'">
+                          <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">MUS</b> / Site Redesign</div>
+</div>
+<div class="carousel-cell" id="hyper" onclick="window.open('https://mhollingshead.github.io/HypercubeRotations/', '_blank')">
+                          <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">Hypercube</b> / Visualizing Rotations</div>
+</div>
+<div class="carousel-cell" id="sort" onclick="window.open('https://mhollingshead.github.io/VisualSort/', '_blank')">
+                          <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">Visual Sort</b> / Visual Sorting Algorithms</div>
+</div>
+<div class="carousel-cell" id="handmap" onclick="window.open('https://mhollingshead.github.io/PokerStarsHandMap/', '_blank')">
+                          <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">HandMap</b> / PS HandHistory Tool</div>
+</div>
+<div class="carousel-cell" id="bbstats" onclick="window.open('https://mhollingshead.github.io/BBStats/', '_blank')">
+                          <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">BBStats</b> / Big Brother Data Analysis</div>
+</div>
+                      </div>
                         <div style="font-weight: 600; font-size: 50px; margin-bottom: 30px;">
                             Graphics & Branding <span style="font-weight: 300; font-size: 20px; color: #adadad;">(click to view full project)</span>
                         </div>
@@ -84,17 +105,6 @@
   <div class="carousel-cell" style="" id="misa" onclick="window.location.href = 'misa.html'">
       <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">MISA</b> / Logo Redesign</div>
   </div>
-                        </div>
-                        <div style="font-weight: 600; font-size: 50px; width: 60px; overflow: visible; border-top: 5px solid #05219f; margin-bottom: 30px; margin-top: 90px;">
-                            Web
-                        </div>
-                        <div class="main-carousel" data-flickity='{"cellAlign": "left", "contain": true, "pageDots": false, "freeScroll": true, "wrapAround": true}'>
-  <div class="carousel-cell" id="mus" onclick="window.location.href = 'mus.html'">
-                            <div style="position: absolute; bottom: 0; padding: 20px; font-size: 18px; font-weight: 100; background: rgb(0, 0, 0, 0.65);"><b style="font-size: 30px">MUS</b> / Site Redesign</div>
-  </div>
-  <div class="carousel-cell" style="background:#05219f;"></div>
-  <div class="carousel-cell" style="background:#00153f;"></div>
-  <div class="carousel-cell" style="background:#092dff;"></div>
                         </div>
                     </div>
                 </div>
@@ -205,6 +215,94 @@ transition: 0.2s filter linear, 0.2s -webkit-filter linear;
 transition: 0.2s filter linear, 0.2s -webkit-filter linear;
     }
     #mus:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #hyper {
+        background-image: url("img/4d.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #hyper:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #sort {
+        background-image: url("img/visualsort.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #sort:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #bbstats {
+        background-image: url("img/bbstats.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #bbstats:hover {
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #handmap {
+        background-image: url("img/handmap.png");
+        background-size: cover;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  -webkit-transition: 0.2s -webkit-filter linear;
+-moz-transition: 0.2s -moz-filter linear;
+-moz-transition: 0.2s filter linear;
+-ms-transition: 0.2s -ms-filter linear;
+-o-transition: 0.2s -o-filter linear;
+transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+    #handmap:hover {
         -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
   -webkit-transition: 0.2s -webkit-filter linear;
